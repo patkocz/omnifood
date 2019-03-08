@@ -95,7 +95,90 @@
 
 /* SMALL TABLETS 481px - 767px */
 @media only screen and (max-width: 767px) {
+  body {
+    font-size: 15px;
+  }
 
+  section {
+    padding: 30px 0;
+  }
+
+  .row,
+  .hero-text-box { 
+    padding: 0 4%;
+  }
+
+  .col {
+    width: 100%;
+    margin: 0 0 4% 0;
+  }
+
+  .logo {
+    height: 60px;
+  }
+
+  .main-nav {
+    font-size: 80%;
+    margin-top: 40px;
+  }
+
+  .main-nav li {
+    margin-left: 10px;
+  }
+
+  .box h3 {
+    margin-bottom: 5%;
+  }
+
+  .steps-box:first-child {
+    text-align: center;
+    padding-right: 0%;
+  }
+
+  .works-step div {
+    width: 47px;
+    height: 47px;
+  }
+
+  .works-step:last-of-type {
+    margin-bottom: 50px;
+  }
+
+  .city-image {
+    width: 90%;
+    height: auto;
+  }
+
+  .box h3 {
+    font-size: 150%;
+  }
+
+  .city-feature {
+    font-size: 130%;
+    text-align: center;
+  }
+
+  .plan-box {
+    margin-left: 0;
+  }
+
+  .contact-form {
+    width: 95%;
+  }
+
+  .footer-nav {
+    text-align: center;
+  }
+
+  .social-links {
+    float: left;
+    width: 100%;
+    text-align: center;
+  }
+
+  footer p {
+    margin-top: 20px;
+  }
 }
 
 /* MOBILE DEVICES 0 - 480px */
