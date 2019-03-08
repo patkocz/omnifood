@@ -181,7 +181,70 @@
   }
 }
 
-/* MOBILE DEVICES 0 - 480px */
-@media only screen and (max-width: 480px) {
+/* MOBILE M 0 - 376px */
+@media only screen and (max-width: 376px) {
+  .logo {
+      display: block;
+      margin-left: 40%;
+      margin-right: 40%;
+  }
 
+  .main-nav {
+    display: block;
+    width: 100%;
+    margin: 15px auto;
+  }
+
+  .main-nav li {
+    margin-left: 15px;
+  }
+
+  .btn-app:link, 
+  .btn-app:visited {
+    margin-left: 22px;
+  }
+
+  .city-feature {
+    font-size: 120%;
+  }
+
+  footer {
+    padding: 15px;
+  }
+
+  .footer-nav li:last-child {
+    margin-top: 5px;
+  }
+}
+
+/* MOBILE S 0 - 320px */
+@media only screen and (max-width: 320px) {
+  .logo {
+    display: block;
+    margin-left: 40%;
+    margin-right: 40%;
+  }
+  .main-nav {
+    margin-top: 20px;
+  }
+
+  .main-nav li {
+    margin-left: 5px;
+  }
+
+  .hero-text-box {
+    font-size: 90%;
+  }
+
+  .city-feature {
+    font-size: 110%;
+  }
+
+  .footer-nav li:last-child {
+    margin-top: 5px;
+  }
+
+  footer {
+    padding: 15px;
+  }
 }
