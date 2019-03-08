@@ -1,0 +1,104 @@
+/* PC 768px - 1023px */
+@media only screen and (max-width: 1200px) {
+  .hero-text-box {
+    width: 100%;
+    padding: 0 2%;
+  }
+
+  .row {
+    padding: 0 2%;
+  }
+}
+
+/* BIG TABLETS, OLD PC 768px - 1023px */
+@media only screen and (max-width: 1023px) {
+  body {
+    font-size: 17px;
+  }
+
+  section {
+    padding: 60px 0;
+  }
+
+  .long-copy {
+    width: 90%;
+    margin-left: 5%;
+  }
+
+  .steps-box:last-child {
+    margin-top: 30px;
+  }
+
+  .btn-app img {
+    height: 40px;
+  }
+
+  .works-step {
+    margin-bottom: 30px;
+  }
+
+  .works-step:last-of-type {
+    margin-bottom: 65px;
+  }
+
+  .app-screen {
+    width: 50%;
+  }
+
+  .icon-small {
+    width: 20px;
+    margin-right: 5px;
+  }
+
+  .city-image {
+    height: 110px;
+  }
+
+  .city-feature {
+    font-size: 80%;
+  }
+
+  .plan-box {
+    width: 100%;
+    margin-left: 3%;
+  }
+
+   .plan-box h3 {
+     margin-bottom: 8%;
+   }
+
+   .plan-box ul {
+     font-size: 90%;
+   }
+
+  .plan-price {
+    font-size: 250%;
+  }
+
+  .contact-form {
+    width: 80%;
+  }
+
+  .footer-nav {
+    font-size: 95%;
+    width: 100%;
+  }
+
+  .social-links {
+    font-size: 95%;
+  }
+
+  .footer-nav li {
+    margin-right: 10px;
+  }
+}
+
+/* SMALL TABLETS 481px - 767px */
+@media only screen and (max-width: 767px) {
+
+}
+
+/* MOBILE DEVICES 0 - 480px */
+@media only screen and (max-width: 480px) {
+
+}
